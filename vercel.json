@@ -1,0 +1,11 @@
+{
+"version":1,
+"name":"google-forms",
+"builds":[
+{"src": "index.js", "use" :"@vercel/node" }
+],
+
+    "routes":[
+        { " src" :"/(.*)" , "dest" : "src/index.js" }
+    ]
+}
