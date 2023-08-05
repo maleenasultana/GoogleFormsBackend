@@ -3,8 +3,8 @@ const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const routes = require('./Route');
-require('./db/config')();
+const routes = require('../Route');
+require('../db/config')();
 const PORT = process.env.PORT || 8000;
 
 const app = express();
