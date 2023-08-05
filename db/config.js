@@ -2,13 +2,12 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
 
 const connectdb = () => {
-    mongoose.connect('mongodb://localhost:27017/googleForms',  {
+    mongoose.connect('mongodb+srv://maleena:masabtank@cluster0.fvarzjq.mongodb.net/',  {
         useNewUrlParser: true, 
-        useUnifiedTopology: true,
-    
+        useUnifiedTopology: true
 })
 
-.then(db => console.log('DB is connected'))
+.then(()=> console.log('DB is connected'))
 .catch(err => console.log(err));
 
 }

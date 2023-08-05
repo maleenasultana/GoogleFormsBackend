@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "build":"npm i"
+    "build": "npm i"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -16,6 +16,7 @@
     "express": "^4.17.2",
     "firebase": "^8.6.8",
     "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
     "mongoose": "^6.1.6"
   },
   "repository": {
